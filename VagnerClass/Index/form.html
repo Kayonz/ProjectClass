@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Gerar JSON</title>
+    <link rel="stylesheet" href="/Styles/stylejson.css">
+    <link rel="icon" type="image/png" href="/Images/icons8-json-50.png" />
+</head>
+
+<body>
+    <header class="menu_transicao">
+        <nav>
+            <ul>
+                <li><a href="calc.html">Calculadora</a></li>
+                <li><a href="imc.html">Calcule o IMC</a></li>
+                <li><a href="form.html">Tire seu Form em JSON</a></li>
+                <li><a href="index.html">Home</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="centraliza_card">
+        <div class="card">
+            <div class="json-generator">
+                <form id="json-form">
+                    <label for="name-input">Nome:</label>
+                    <input type="text" id="name-input" required>
+                    <label for="age-input">Idade:</label>
+                    <input type="number" id="age-input" required>
+                    <label for="email-input">Email:</label>
+                    <input type="email" id="email-input" required>
+                    <button type="submit" onclick="generateJSON()">Gerar Arquivo JSON</button>
+                </form>
+                <div class="json-result" id="json-result"></div>  
+            </div>
+        </div>
+    </div>
+
+    <script src="/Functions/json.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    background-color: #004443;
+}
+
+header {
+    background-color: #002e34;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 1em;
+    box-shadow: 0px 2px 4px #45936c;
+}
+
+a {
+    color: black;
+    padding: 10px 20px;
+    transition: padding 0.3s ease;
+    text-decoration: none;
+}
+
+h1 {
+    color: #333;
+    font-size: 24px;
+    margin: 0;
+    font-family: 'Montserrat';
+}
+
+button {
+    padding: 5px;
+    margin: 3px;
+}
+input{
+    margin: 3px;
+}
+
+nav {
+    text-align: right;
+    display: flex;
+    justify-content: center;
+    
+}
+label{
+    font-weight: 400;
+    font-size: 20px;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    font-family: Arial;
+    font-size: 24px;
+    display: inline-block;
+    margin-left: 1em;
+    text-decoration: none;
+    padding: 10px;
+    border: 2px solid #ddd;
+    border-radius: 50px;
+    background-color: #ddd;
+    box-shadow: 2px 2px 2px black;
+}
+
+ .json-result {
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    padding: 10px;
+    font-size: 14px;
+    color: #333;
+}
+a:hover {
+    padding: 15px 25px;
+    color: black;
+}
+
+.centraliza_card{
+    display: flex;
+    justify-content: center;
+}
+
+.card{
+    width: 300px;
+    background-color: #f1f1f1;
+    padding: 20px;
+    border-radius: 10px;
+    margin-right: 20px;
+    margin-top: 5em;
+    box-shadow: 5px 5px 2px #45936c;
+}
+
+.json-generator button {
+    font-family: 'Courier New', Courier, monospace;
+    display: block;
+    margin-bottom: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #15c26b;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.json-generator button:hover {
+    background-color: #1ad274;
+}
+
+.json-generator button:active {
+    background-color: #0fb962;
+}
+
+.json-generator label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.json-generator input {
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+    margin-bottom: 10px;
+    margin-left: 15px;
+}
+.button:active{
+    transform: scale(0.9);
+}
+button:hover{
+    transform: scale(1.1);
+}
+.json-result {
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    padding: 10px;
+    font-size: 14px;
+    color: #333;
+} 
+

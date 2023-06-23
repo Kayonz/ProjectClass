@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    background-color: #004443;
+}
+
+header {
+    background-color: #002e34;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 1em;
+    box-shadow: 0px 2px 4px #45936c;
+}
+
+a {
+    color: black;
+    padding: 10px 20px;
+    transition: padding 0.3s ease;
+    text-decoration: none;
+}
+
+h1 {
+    color: #fff;
+    font-size: 24px;
+    margin: 0;
+    font-family: 'Montserrat';
+}
+
+nav {
+    text-align: right;
+    display: flex;
+    justify-content: center;
+
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    font-family: Arial;
+    font-size: 24px;
+    display: inline-block;
+    margin-left: 1em;
+    text-decoration: none;
+    padding: 10px;
+    border: 2px solid #ddd;
+    border-radius: 50px;
+    background-color: #ddd;
+}
+
+a:hover {
+    padding: 15px 25px;
+    color: black;
+    text-decoration: none;
+}
+
+.centraliza_card {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    width: 300px;
+    background-color: #f1f1f1;
+    padding: 20px;
+    border-radius: 10px;
+    margin-right: 20px;
+    margin-top: 5em;
+    box-shadow: 5px 5px 2px #45936c;
+}
+
+input {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.calculator {
+    max-width: 300px;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.screen {
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    padding: 10px;
+    margin-bottom: 10px;
+    text-align: right;
+    font-size: 24px;
+    color: #333;
+}
+.button_css{
+    background-color: orange;
+}
+.calculator button {
+    width: 48px;
+    height: 48px;
+    margin: 2px;
+    font-size: 20px;
+    background-color: #9dc9ac;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.calculator button:hover {
+    background-color: #9eddb3;
+}
+
+.calculator button:active {
+    background-color: #568666;
+}
+
+.calculator .operator {
+    background-color: #ff9f00;
+    color: #fff;
+}
+
+.calculator .operator:hover {
+    background-color: #ffaa33;
+}
+
+.calculator .operator:active {
+    background-color: #ffbb66;
+}
+
+.calculator .equal {
+    background-color: #15c26b;
+    color: #fff;
+}
+
+.calculator .equal:hover {
+    background-color: #1ad274;
+}
+
+.calculator .equal:active {
+    background-color: #0fb962;
+}

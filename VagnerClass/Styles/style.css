@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    background-color: #004443;
+}
+
+header {
+    background-color: #002e34;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 1em;
+    box-shadow: 0px 2px 4px #45936c;
+}
+
+a {
+    color: black;
+    padding: 10px 20px;
+    transition: padding 0.3s ease;
+    text-decoration: none;
+}
+
+h1 {
+    color: #fff;
+    font-size: 24px;
+    margin: 0;
+    font-family: 'Montserrat';
+}
+
+nav {
+    text-align: right;
+    display: flex;
+    justify-content: center;
+    
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    font-family: Arial;
+    font-size: 24px;
+    display: inline-block;
+    margin-left: 1em;
+    text-decoration: none;
+    padding: 10px;
+    border: 2px solid #ddd;
+    border-radius: 50px;
+    background-color: #ddd;
+    box-shadow: 2px 2px 2px black;
+}
+
+a:hover {
+    padding: 15px 25px;
+    color: black;
+}
+
+.centraliza_card{
+    display: flex;
+    justify-content: center;
+}
+.card {
+    width: 300px;
+    background-color: #f1f1f1;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 6em;
+    box-shadow: 5px 5px 2px #45936c;
+}
+
+.card h2 {
+    margin-top: 0;
+}
+
+.button-container {
+    margin-top: 20px;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: #45a049;
+}
